@@ -20,7 +20,7 @@ namespace JoeAndBob
         
         public int GiveCash(int amount)
         {
-            // Gives cash, if the amount is less than or equal to 0 it is invalid.
+            // Gives cash, if the amount is less than or equal to 0 it is invalid
             if (amount <= 0)
             {
                 Console.WriteLine(Name + " says " + amount + " isn't a valid amount");
@@ -41,13 +41,13 @@ namespace JoeAndBob
          
         public void ReceiveCash(int amount)
         {
-            // If the amount is less than or equal to 0, print that it is not an amount a guy will take.
+            // If the amount is less than or equal to 0, print that it is not an amount a guy will take
             if(amount <= 0)
             {
                 Console.WriteLine(Name + " says: " + amount + "isn't an amount I'll take");
             }
-
-            // If the amount is valid, add it to a guys cash.
+            
+            //If the cash is valid, add it 
             else
             {
                 Cash += amount;
